@@ -13,7 +13,7 @@ body {
   background-color: #f4f4f4;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100%;
   padding: 1rem;
 }
 
@@ -99,12 +99,20 @@ main {
 
 
 footer {
+  display:flex;
+  justify-styles: space-between 
   text-align: center;
   background: #333;
   color: white;
   padding: 1rem;
   margin-top: auto;
 }
+
+.footer-times {
+    List-style:none:
+    margin:0;
+    padding:0;
+    text-align:right;
 
 
 media (max-width: 767px) {
